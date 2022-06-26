@@ -1,6 +1,5 @@
-<<!DOCTYPE html>
-  <html lang="en">
-
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,7 +10,10 @@
     <!-- normalize -->
     <link rel="stylesheet" href="./css/normalize.css" />
     <!-- font-awesome -->
-    <script src="https://kit.fontawesome.com/5307dcf8d5.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/5307dcf8d5.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- main css -->
     <link rel="stylesheet" href="./css/main.css" />
   </head>
@@ -23,7 +25,7 @@
         <!-- header -->
         <div class="nav-header">
           <a href="index.html" class="nav-logo">
-            <img src="./assets/logo.svg" alt="simply recipes">
+            <img src="./assets/logo.svg" alt="simply recipes" />
           </a>
           <button type="button" class="btn nav-btn">
             <i class="fa-solid fa-bars"></i>
@@ -44,14 +46,78 @@
     <!-- end of nav -->
 
     <!-- main -->
-    <main class="page">
-      <h1>About Page</h1>
+    <main class="page" id="about-page">
+      <div class="about-center">
+        <div class="about-center_text">
+          <h2 class="about-page_header">
+            I'm baby coloring book poke taxidermy
+          </h2>
+          <div class="about-text_one">
+            Taxidermy forage glossier letterpress heirloom before they sold out
+            you probably haven't heard of them banh mi biodiesel chia.
+          </div>
+          <div class="about-text_two">
+            Taiyaki tumblr flexitarian jean shorts brunch, aesthetic salvia
+            retro.
+          </div>
+          <div class="nav-link contact-link" id="aboutContact">
+            <a href="contact.html" class="btn contact">Contact</a>
+          </div>
+        </div>
+        <div class="about-center_img">
+          <div class="about-img"></div>
+        </div>
+      </div>
+      <h5 class="about-pics_text">look at this awesomesouce!</h5>
+      <!-- recipes pics -->
+      <div class="recipes-pics" id="recipes-pics">
+        <div class="recipes-pics_one">
+          <a href="../starter/single-recipe.html"
+            ><img src="../starter/assets/recipes/recipe-1.jpeg" alt=""
+          /></a>
+          <div>
+            <a href="../starter/single-recipe.html">
+              <h5>Carne Asada</h5>
+            </a>
+            <a href="../starter/single-recipe.html">
+              <p>prep : 15min | Cook : 5min</p>
+            </a>
+          </div>
+        </div>
+        <div class="recipes-pics_two">
+          <a href="../starter/single-recipe.html"
+            ><img src="../starter/assets/recipes/recipe-2.jpeg" alt=""
+          /></a>
+          <div>
+            <a href="../starter/single-recipe.html">
+              <h5>Greek Ribs</h5>
+            </a>
+            <a href="../starter/single-recipe.html">
+              <p>prep : 15min | Cook : 5min</p>
+            </a>
+          </div>
+        </div>
+        <div class="recipes-pics_three">
+          <a href="../starter/single-recipe.html"
+            ><img src="../starter/assets/recipes/recipe-3.jpeg" alt=""
+          /></a>
+          <div>
+            <a href="../starter/single-recipe.html">
+              <h5>Vegetable Soup</h5>
+            </a>
+            <a href="../starter/single-recipe.html">
+              <p>prep : 15min | Cook : 5min</p>
+            </a>
+          </div>
+        </div>
+      </div>
     </main>
     <!-- end of main -->
 
     <!-- footer -->
     <footer class="page-footer">
-      <p> &copy;
+      <p>
+        &copy;
         <span id="date">2022</span>
         <span id="footer-logo">SimplyRecipes</span>
         Built by
@@ -60,7 +126,5 @@
     </footer>
     <!-- end of footer -->
     <script src="./js/app.js"></script>
-
   </body>
-
-  </html>
+</html>
